@@ -66,12 +66,12 @@ def computePoseCameraFrame(point_ind):
 # In[14]:
 
 
-pcd_net = o3d.geometry.PointCloud()
-for i in range(77):
-    poses = computePoseCameraFrame(i)
-    pcd = o3d.geometry.PointCloud()
-    pcd.points = o3d.utility.Vector3dVector(poses[:,:3])
-    pcd_net += pcd
-downpcd = pcd_net.voxel_down_sample(voxel_size=1)
-o3d.visualization.draw_geometries([downpcd])
+# pcd_net = o3d.geometry.PointCloud()
+# for i in range(77):
+#     poses = computePoseCameraFrame(i)
+#     pcd = o3d.geometry.PointCloud()
+#     pcd.points = o3d.utility.Vector3dVector(poses[:,:3])
+#     pcd_net += pcd
+# downpcd = pcd_net.voxel_down_sample(voxel_size=1)
+# o3d.visualization.draw_geometries([downpcd])
 
