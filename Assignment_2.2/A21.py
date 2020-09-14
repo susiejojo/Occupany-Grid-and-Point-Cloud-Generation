@@ -12,9 +12,9 @@ from utils import readData, readPointCloud
 
 
 # In[5]:
-
 ground_truth = readData("../dataset/01.txt")
 ground_truth = ground_truth[:77][:]
+
 
 
 
@@ -44,14 +44,14 @@ def computeTransformation(point_ind):
 
 def computePoseCameraFrame(point_ind):
     file = "../dataset/01/" + str(point_ind).zfill(6) + ".bin"
-    #print (file)
+    print (file)
     pcd = readPointCloud(file)
     npts = pcd.shape[0]
     lidar_to_cam = np.array([[0,-1,0,0],[0,0,-1,0],[1,0,0,0],[0,0,0,1]])
     pcd = np.hstack((pcd[:,:3],np.ones((npts,1))))
     poses = np.dot(np.asarray(pcd),lidar_to_cam.T)
     poses = np.dot(poses,computeTransformation(point_ind).T)
-    #print ("Hello 2.1!")
+    print ("Hello 2.2!")
     return poses
 
 
