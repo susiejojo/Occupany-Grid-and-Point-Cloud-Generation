@@ -5,9 +5,17 @@
 In your terminal:\
 <code>
     git clone https://github.com/Mobile-Robotics-IIITH-2020/assignment-2-18_french-biriyani
+</code>
+<code>
     cd assignment-2-18_french-biriyani
+</code>
+<code>
     conda env create -f env.yml
+</code>
+<code>
     conda activate mr
+</code>
+<code>
     jupyter notebook
  </code>
 
