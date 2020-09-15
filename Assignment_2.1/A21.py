@@ -7,13 +7,13 @@
 import sys
 import numpy as np
 import open3d as o3d
-sys.path.insert(1, "../dataset")
+sys.path.insert(1, "../data")
 from utils import readData, readPointCloud
 
 
 # In[5]:
 
-ground_truth = readData("../dataset/01.txt")
+ground_truth = readData("../data/01.txt")
 ground_truth = ground_truth[:77][:]
 
 
@@ -43,7 +43,7 @@ def computeTransformation(point_ind):
 
 
 def computePoseCameraFrame(point_ind):
-    file = "../dataset/01/" + str(point_ind).zfill(6) + ".bin"
+    file = "../data/01/" + str(point_ind).zfill(6) + ".bin"
     #print (file)
     pcd = readPointCloud(file)
     npts = pcd.shape[0]
