@@ -25,6 +25,8 @@ In your terminal:\
 
 After that, Jupyter Notebook should open locally. All the directories in this repo will be available there. Assignment_2.1 and Assignment_2.2 are the directories with the solutions as ipynb files, with the report for each question written in them separately.
 
+# Directory Structure followed: 
+
 # Instructions
 
 - This assignment is designed to get you familiar with handling Point Cloud Registration and Occupancy Grid construction
