@@ -1,5 +1,16 @@
 # Assignment 2
 
+# Setup
+
+In your terminal:
+<code>
+    git clone https://github.com/Mobile-Robotics-IIITH-2020/assignment-2-18_french-biriyani
+    cd assignment-2-18_french-biriyani
+    conda env create -f env.yml
+    conda activate mr
+    jupyter notebook
+ </code>
+
 # Instructions
 
 - This assignment is designed to get you familiar with handling Point Cloud Registration and Occupancy Grid construction
