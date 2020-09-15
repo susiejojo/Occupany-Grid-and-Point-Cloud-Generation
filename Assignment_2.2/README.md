@@ -78,8 +78,16 @@ The individual occupancy grids for the LIDAR bin files are stored in `assignment
 In the directory `assignment-2-18_french-biriyani` you will find images of generated occupancy grids numbered as `grid0.png`, `grid1.png` till `grid76.png`. 
 They correspond to each of the individual 77 LIDAR bin files that can be found at the location mentioned above, namely `000000.bin`, `000001.bin` respectively and so on. 
 
-#### Example Output:
+#### Approach: 
+
+#### Example Output for Part a):
 
 Occupancy Grid for 0000000.bin:
 
 ![alt text](https://github.com/Mobile-Robotics-IIITH-2020/assignment-2-18_french-biriyani/blob/master/Assignment_2.2/grid.png "Title")
+
+#### Output and results for Part b):
+
+- Results:
+
+We observe that the white patches in the generated occupancy grids become more distinct and prominent as we incorporate a greater no. of LIDAR bins. An analogy of this to the probabilistic Bayesian update would be that the confidence of a grid cell being occupied increases as we consider more LIDAR scans.
