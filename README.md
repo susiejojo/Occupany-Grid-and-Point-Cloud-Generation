@@ -4,8 +4,8 @@
 
 In your terminal:
 <code>
-    git clone https://github.com/Mobile-Robotics-IIITH-2020/assignment-2-18_french-biriyani <br/>
-    cd assignment-2-18_french-biriyani <br/>
+    git clone https://github.com/Mobile-Robotics-IIITH-2020/assignment-2-18_french-biriyani
+    cd assignment-2-18_french-biriyani
     conda env create -f env.yml <br/>
     conda activate mr <br/>
     jupyter notebook <br/>
