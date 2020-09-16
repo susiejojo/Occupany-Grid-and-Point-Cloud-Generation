@@ -51,6 +51,8 @@ def computePoseCameraFrame(point_ind):
     pcd = np.hstack((pcd[:,:3],np.ones((npts,1))))
     poses = np.dot(np.asarray(pcd),lidar_to_cam.T)
     poses = np.dot(poses,computeTransformation(point_ind).T)
+    c0_w_matrix = np.array([[0,0,1,0],[-1,0,0,0],[0,-1,0,0],[0,0,0,1]])
+    poses = np.dot(poses,c0_w_matrix.T)
     #print ("Hello 2.1!")
     return poses
 
