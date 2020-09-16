@@ -24,7 +24,7 @@ In your terminal:\
 <code>
     cd Assignment_2.1 
 </code>
- or 
+  or 
 <code>
     cd Assignment_2.2 
 </code>
