@@ -24,9 +24,7 @@ In your terminal:\
 <code>
     cd Assignment_2.1 
 </code>
-\
-or,
-\
+ or 
 <code>
     cd Assignment_2.2 
 </code>
@@ -37,7 +35,7 @@ or,
  
 ### Running and testing 
 
-After that, Jupyter Notebook should open on localhost in the folder for Assignment 2.1 or 2.2. The code can be found in the notebook `A21.ipynb` under Assignment_2.1 or `A22.ipynb`under Assignment_2.2. 
+After that, Jupyter Notebook should open on localhost in the folder for Assignment 2.1 or 2.2. The code can be found in the notebook 'A21.ipynb' under Assignment_2.1 or 'A22.ipynb' under Assignment_2.2. 
 
 Code for A21.ipynb has also been saved as a Python script in `A21.py`.
 
@@ -46,9 +44,9 @@ The code can be tested locally by running each cell in the notebook.
 Make sure that all cells containing functions in the notebook are run to generate the final outputs, as the code has been modularised, and the final output depends on multiple functions defined the cells before it.
 
 
-### Where to find LIDAR bin files:
+### Where to find LiDAR bin files:
 
-The individual LIDAR bin files are stored in `assignment-2-18_french-biriyani/data/01`. 
+The individual LiDAR bin files are stored in `assignment-2-18_french-biriyani/data/01`. 
 
 ### Where to find outputs and results:
 
