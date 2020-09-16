@@ -50,4 +50,6 @@ The individual LiDAR bin files are stored in `assignment-2-18_french-biriyani/da
 
 ### Where to find outputs and results:
 
-The individual occupancy grids and the occupancy grid for a net of 5,10,15 point clouds from the LIDAR bin files (Assignment 2.2 parts a) and b)) are stored in `assignment-2-18_french-biriyani/data/imgs/cv`. 
+The individual occupancy grids from the LIDAR bin files (Assignment 2.2 parts a) and b)) are stored in `assignment-2-18_french-biriyani/data/imgs/cv`. 
+
+The occupancy grid for a net of 5,10,15 point clouds are stored in `assignment-2-18_french-biriyani/data/imgs` as `grid_for_5.png`, 'grid_for_10.png` and so on
